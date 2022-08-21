@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        <Box color={"brand.text.main"} bg={"#E5E5E5"}>
+        <Box color={"brand.text.main"} bg={"#F8F9FF"}>
           <HeroArea />
           <Features />
         </Box>

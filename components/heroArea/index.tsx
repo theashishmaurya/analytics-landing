@@ -27,7 +27,7 @@ export default function () {
                 doloribus placeat harum, itaque quod labore amet!
               </Text>
 
-              <Box position='absolute' right='0' bottom={100} zIndex={9}>
+              <Box position='absolute' right='0' top={220} zIndex={9}>
                 <Image
                   src='/assets/images/hero-1.png'
                   width={600}
@@ -39,7 +39,7 @@ export default function () {
               <Box
                 position='absolute'
                 right='300'
-                bottom='250'
+                top='300'
                 p='10'
                 bg='white'
                 zIndex={10}
