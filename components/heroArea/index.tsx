@@ -59,15 +59,15 @@ export default function () {
       </Box>
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
         <path
-          fill='#172755'
+          fill='#F8F9FF'
           fill-opacity='1'
-          d='M0,224L1440,128L1440,0L0,0Z'
+          d='M0,224L1440,96L1440,320L0,320Z'
         ></path>
         <polyline
           strokeWidth={"15px "}
           stroke='#EF2A82'
           fill='#172755'
-          points='0,224 1440,128 1440,0 '
+          points='0,220 1400,100 1440,96 0'
         />
       </svg>
     </Box>
