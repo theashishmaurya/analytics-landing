@@ -10,20 +10,20 @@ import Pricing from "../components/pricing";
 //
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Advance Analytics</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        <Box color={"brand.text.main"} bg={"brand.darkBlue"}>
+        <Box color={"brand.text.main"} bg={"brand.darkBlue"} w='100%'>
           <HeroArea />
           <Features />
           <Pricing />
           <Footer />
         </Box>
       </main>
-    </div>
+    </>
   );
 };
 

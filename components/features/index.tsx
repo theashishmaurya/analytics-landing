@@ -70,7 +70,7 @@ export default function () {
                 src='/assets/images/widget.png'
                 width={500}
                 height={310}
-                layout='fixed'
+                // layout='fixed'
               />
             </Box>
 
@@ -98,7 +98,7 @@ export default function () {
                 src='/assets/images/char.png'
                 width={500}
                 height={310}
-                layout='fixed'
+                // layout='fixed'
               />
             </Box>
 
@@ -126,7 +126,7 @@ export default function () {
                 src='/assets/images/calendar.png'
                 width={500}
                 height={310}
-                layout='fixed'
+                // layout='fixed'
               />
             </Box>
 
@@ -146,14 +146,14 @@ export default function () {
         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
           <path
             fill='#172755'
-            fill-opacity='1'
+            fillOpacity='1'
             d='M0,224L1440,96L1440,320L0,320Z'
           ></path>
           <polyline
             strokeWidth={"15px "}
             stroke='#EF2A82'
             fill='#172755'
-            points='0,220 1400,100 1440,96 0'
+            points='0 ,220 1400,100 1440,96 '
           />
         </svg>
       </Box>

@@ -12,11 +12,17 @@ import Link from "next/link";
 
 export default function () {
   return (
-    <Box color='#ffffff' minH='200' mt='20'>
+    <Box color='#ffffff' minH='200'>
       <Container maxW='7xl'>
         <Divider color='#2A407C' />
 
-        <Flex justifyContent='space-between' my='20' alignItems='center'>
+        <Flex
+          justifyContent='space-between'
+          py='20'
+          alignItems='center'
+          direction={{ base: "column", lg: "row" }}
+          gap={{ base: "10", lg: "0" }}
+        >
           <Flex alignItems='center' direction='row' gap='2'>
             <Box w='full'>
               <Image
@@ -38,7 +44,7 @@ export default function () {
           </Flex>
 
           <Stack
-            direction='row'
+            direction={{ base: "column", lg: "row" }}
             gap={10}
             alignItems='center'
             justifyContent='start'

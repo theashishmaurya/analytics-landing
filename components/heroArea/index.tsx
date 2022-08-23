@@ -12,7 +12,7 @@ export default function () {
           <Box w='full' mt='32'>
             <Stack
               direction='column'
-              w='35%'
+              w={{ base: "100%", lg: "35%" }}
               h='30vh'
               alignItems='center'
               justify='center'
@@ -27,7 +27,13 @@ export default function () {
                 doloribus placeat harum, itaque quod labore amet!
               </Text>
 
-              <Box position='absolute' right='0' top={220} zIndex={9}>
+              <Box
+                position='absolute'
+                right='0'
+                top={220}
+                zIndex={9}
+                display={{ base: "none", lg: "block" }}
+              >
                 <Image
                   src='/assets/images/hero-1.png'
                   width={600}
@@ -44,6 +50,7 @@ export default function () {
                 bg='white'
                 zIndex={10}
                 borderRadius={32}
+                display={{ base: "none", lg: "block" }}
               >
                 <Image
                   src='/assets/images/hero-2.png'
@@ -60,14 +67,14 @@ export default function () {
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
         <path
           fill='#F8F9FF'
-          fill-opacity='1'
+          fillOpacity='1'
           d='M0,224L1440,96L1440,320L0,320Z'
         ></path>
         <polyline
           strokeWidth={"15px "}
           stroke='#EF2A82'
           fill='#172755'
-          points='0,220 1400,100 1440,96 0'
+          points='0,220 1400,100 1440,96 '
         />
       </svg>
     </Box>
