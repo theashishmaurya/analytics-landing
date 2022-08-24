@@ -36,8 +36,8 @@ export default function () {
               >
                 <Image
                   src='/assets/images/hero-1.png'
-                  width={600}
-                  height={500}
+                  width={640}
+                  height={552}
                   alt='cover'
                   layout='fixed'
                 />
@@ -51,12 +51,13 @@ export default function () {
                 zIndex={10}
                 borderRadius={32}
                 display={{ base: "none", lg: "block" }}
+                shadow='md'
               >
                 <Image
                   src='/assets/images/hero-2.png'
-                  width={361 / 1.5}
-                  height={246 / 1.5}
-                  alt='cover'
+                  width={256}
+                  height={170}
+                  alt='cover-bg'
                   layout='fixed'
                 />
               </Box>

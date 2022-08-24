@@ -77,18 +77,21 @@ export default function () {
               width={10}
               height={20}
               layout='fixed'
+              alt='facebook'
             />
             <Image
               src='/assets/images/twitter.png'
               width={24}
               height={20}
               layout='fixed'
+              alt='twitter'
             />
             <Image
               src='/assets/images/instagram.png'
               width={20}
               height={20}
               layout='fixed'
+              alt='instagram'
             />
           </Stack>
         </Flex>

@@ -26,7 +26,12 @@ export default function MobileNavbar() {
   return (
     <>
       <Flex justifyContent={"end"}>
-        <Button ref={btnRef} onClick={onOpen} bg='transparent'>
+        <Button
+          ref={btnRef}
+          onClick={onOpen}
+          bg='transparent'
+          aria-label='menu'
+        >
           <HiMenuAlt3 size={"40px"} color={"#E5E5E5"} />
         </Button>
       </Flex>
@@ -51,7 +56,7 @@ export default function MobileNavbar() {
               direction={"column"}
             >
               <Spacer my={8} />
-              <Link href={"#Product"}>
+              <Link href={"/"}>
                 <Text fontSize={"lg"}>Product</Text>
               </Link>
               <Spacer my={8} />
@@ -59,12 +64,12 @@ export default function MobileNavbar() {
                 <Text fontSize={"lg"}>Pricing</Text>
               </Link>
               <Spacer my={8} />
-              <Link href={"#FAQ"}>
+              <Link href={"/"}>
                 <Text fontSize={"lg"}>FAQ</Text>
               </Link>
               <Spacer my={8} />
 
-              <Link href={"#Blog"}>
+              <Link href={"/"}>
                 <Text fontSize={"lg"}>Blog</Text>
               </Link>
               <Spacer my={8} />

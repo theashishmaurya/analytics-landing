@@ -23,6 +23,7 @@ export default function () {
                 width={45}
                 height={45}
                 layout='fixed'
+                alt='icon'
               />
               <Text fontWeight='bold'>Monitoring 24/7</Text>
               <Text textAlign='center' color='brand.text.secondary'>
@@ -36,7 +37,9 @@ export default function () {
                 width={45}
                 height={45}
                 layout='fixed'
+                alt='icon'
               />
+
               <Text fontWeight='bold'>Widget System</Text>
               <Text textAlign='center' color='brand.text.secondary'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -49,6 +52,7 @@ export default function () {
                 width={45}
                 height={45}
                 layout='fixed'
+                alt='icon'
               />
               <Text fontWeight='bold'>Best Performance</Text>
               <Text textAlign='center' color='brand.text.secondary'>
@@ -70,6 +74,7 @@ export default function () {
                 src='/assets/images/widget.png'
                 width={500}
                 height={310}
+                alt='widget'
                 // layout='fixed'
               />
             </Box>
@@ -95,9 +100,10 @@ export default function () {
           >
             <Box p='10' bg='white' borderRadius={30} boxShadow='lg'>
               <Image
-                src='/assets/images/char.png'
+                src='/assets/images/widget.png'
                 width={500}
                 height={310}
+                alt='charts'
                 // layout='fixed'
               />
             </Box>
@@ -126,6 +132,7 @@ export default function () {
                 src='/assets/images/calendar.png'
                 width={500}
                 height={310}
+                alt='calendar'
                 // layout='fixed'
               />
             </Box>

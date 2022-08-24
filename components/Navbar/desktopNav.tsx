@@ -12,16 +12,16 @@ export default function DesktopNav() {
         flexGrow={1}
         color='brand.text.secondary'
       >
-        <Link href={"#Product"}>
+        <Link href={"/"}>
           <Text fontSize={"lg"}>Products</Text>
         </Link>
         <Link href={"#Pricing"}>
           <Text fontSize={"lg"}>Pricing</Text>
         </Link>
-        <Link href={"#FAQ"}>
+        <Link href={"/"}>
           <Text fontSize={"lg"}>FAQ</Text>
         </Link>
-        <Link href={"#Blog"}>
+        <Link href={"/"}>
           <Text fontSize={"lg"}>Blog</Text>
         </Link>
       </Stack>
