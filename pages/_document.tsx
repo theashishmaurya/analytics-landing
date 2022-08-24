@@ -32,21 +32,21 @@ class MyDocument extends Document {
             content='https://analytics-landing.vercel.app/assets/images/MetaTag.png'
           />
 
-          <meta property='twitter:card' content='summary_large_image' />
+          <meta property='twitter:card' name='summary_large_image' />
           <meta
-            property='twitter:url'
+            name='twitter:url'
             content='https://analytics-landing.vercel.app/'
           />
           <meta
-            property='twitter:title'
+            name='twitter:tittle'
             content='Analytics — Monitor Your business on a real-time dashboard'
           />
           <meta
-            property='twitter:description'
+            name='twitter:description'
             content='A real-time analytics tool for your business and enterprise. Plug and Play model to support all your needs.'
           />
           <meta
-            property='twitter:image'
+            name='twitter:image'
             content='https://analytics-landing.vercel.app/assets/images/MetaTag.png'
           />
         </Head>
