@@ -12,7 +12,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Advance Analytics</title>
+        <title>
+          Analytics — Monitor Your business on a real-time dashboard
+        </title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>

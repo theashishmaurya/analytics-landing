@@ -100,7 +100,7 @@ export default function () {
           >
             <Box p='10' bg='white' borderRadius={30} boxShadow='lg'>
               <Image
-                src='/assets/images/widget.png'
+                src='/assets/images/char.png'
                 width={500}
                 height={310}
                 alt='charts'

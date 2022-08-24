@@ -5,9 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <title>
-            Analytics — Monitor Your business on a real-time dashboard
-          </title>
           <meta
             name='title'
             content='Analytics — Monitor Your business on a real-time dashboard'
@@ -30,7 +27,10 @@ class MyDocument extends Document {
             property='og:description'
             content='A real-time analytics tool for your business and enterprise. Plug and Play model to support all your needs.'
           />
-          <meta property='og:image' content='/assets/images/MetaTag.png' />
+          <meta
+            property='og:image'
+            content='https://analytics-landing.vercel.app/assets/images/MetaTag.png'
+          />
 
           <meta property='twitter:card' content='summary_large_image' />
           <meta
@@ -45,7 +45,10 @@ class MyDocument extends Document {
             property='twitter:description'
             content='A real-time analytics tool for your business and enterprise. Plug and Play model to support all your needs.'
           />
-          <meta property='twitter:image' content='/assets/images/MetaTag.png' />
+          <meta
+            property='twitter:image'
+            content='https://analytics-landing.vercel.app/assets/images/MetaTag.png'
+          />
         </Head>
         <body>
           <Main />
